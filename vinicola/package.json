@@ -21,7 +21,7 @@
   },
   "scripts": {
     "client": "npm run start",
-    "server": "cd /backend/ && DEBUG=myapp:* npm start",
+    "server": "cd ../api/ && npm run dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
